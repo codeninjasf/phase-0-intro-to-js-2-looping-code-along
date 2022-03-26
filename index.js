@@ -54,16 +54,19 @@
 
 // 
 
-// Looping lab while loop code, Assignment #2
+
+// Looping lab while loop code, Assignment #2 Function countDown to 0
 // countDown to 0.
 
-let countDown = 10;    //  initialize variable
-    while (countDown >= 0) {     // if countDown (True) continue to run
-    console.log(countDown);  // logs the countDown
-    countDown--;    // decrease countDown by 1, updates countDown
+function countDown() { 
+    let num = 10;             //  initialize variable to 10
+    while (num >= 0){         // if num value is (True) continue to run
+    console.log(num);         // logs num value 
+    num--;                    // subtract num value by 1
 }
-
-
+    return 
+}
+countDown()                   // invokes the function
 
 
 
